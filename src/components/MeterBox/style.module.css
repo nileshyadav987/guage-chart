@@ -1,0 +1,20 @@
+#meter-box {
+    display: inline-block;
+    /* border: 1px solid; */
+    position: relative;
+    overflow: hidden;
+  }
+  #meter {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 0;
+  }
+  #pin {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 0;
+    transition: transform 0.7s ease-in-out;
+  }
+  
